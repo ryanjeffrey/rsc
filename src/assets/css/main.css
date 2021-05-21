@@ -61,3 +61,23 @@ h1, h2 {
     margin-right: auto;
     margin-left: auto;
 }
+
+
+
+.cards-container {
+    padding: 10px;
+}
+
+.cards-container h3 {
+    font-size: 30px;
+}
+
+.card {
+    border-radius: 5px;
+    background-color: white;
+    padding: 40px;
+}
+
+.card h4 {
+    font-size: 24px;
+}
