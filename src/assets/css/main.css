@@ -13,6 +13,7 @@ body {
     line-height: 1.5;
     text-align: center;
     background-color: #f9fafc;
+    letter-spacing: -0.05em;
 }
 
 h1, h2 {
@@ -42,6 +43,7 @@ h1, h2 {
 
 .navbar p {
     font-family: 'Della Respira', serif;
+    letter-spacing: 0;
 }
 
 .hero-section {

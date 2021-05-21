@@ -7,7 +7,7 @@ const Cards = () => {
       <div className="cards-container">
         <h3>What We Love To Do:</h3>
         <div className="card">
-          <img src={Wheel} />
+          <img src={Wheel} alt="" />
           <h4>Design</h4>
           <p>
             Whether you have a logo and color palette or you are starting from
@@ -16,7 +16,7 @@ const Cards = () => {
           </p>
         </div>
         <div className="card">
-          <img src={Code} />
+          <img src={Code} alt=""/>
           <h4>Develop</h4>
           <p>
             Got a web design ready to go, but you just need a developer to make
