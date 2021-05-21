@@ -1,18 +1,18 @@
 import React from "react"
-import Navbar from "../components/Navbar"
-import "../assets/css/main.css"
+import Layout from "../components/Layout"
+import Grid from "../components/Grid"
+import Hero from "../components/Hero"
+import Cards from "../components/Cards"
+
 
 
 const index = () => {
   return (
-      <div>
-        <Navbar />
-        <div className="hero-section">
-          <h1>Beautiful design.</h1>
-          <h2>Eloquent development.</h2>
-          <h2>Dope websites.</h2>
-        </div>
-      </div>
+      <Layout>
+        <Hero />
+        <Grid />
+        <Cards />
+      </Layout>
   )
 }
 
