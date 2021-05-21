@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Della+Respira&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 32px;
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar {
+    height: 50px;
+    background-color: rgba(253, 254, 255, 0.45);
+    opacity: 1;
+    position: sticky;
+    top: 0px;
+
+}
+
+.navbar p {
+    font-family: 'Della Respira', serif;
+}
+
+.hero-section {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: .8;
+}
+
+.hero-section h1 {
+    padding-top: 80px;
+}
+
