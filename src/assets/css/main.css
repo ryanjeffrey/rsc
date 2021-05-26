@@ -57,11 +57,44 @@ h1, h2 {
     justify-content: center;
 }
 
+.hero-section .load-1st {
+    animation: fadeInAnimation ease 3.2s, 1s ease-out 0s 1 slideInFromLeft;
+    animation-iteration-count: 1;
+    animation-delay: 0ms;
+}
+
+.hero-section .load-2nd {
+    animation: fadeInAnimation ease 3.2s, 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.hero-section .load-3rd {
+    animation: fadeInAnimation ease 3.2s, 1s ease-out 0s 1 slideInFromLeft;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
+    animation: fadeInAnimation ease 3.5s;
 }
 
 
