@@ -56,7 +56,7 @@ h1, h2 {
     margin: 0;
     line-height: 1.2;
     justify-content: center;
-    letter-spacing: -0.15em;
+    letter-spacing: -0.20em;
 }
 
 .hero-section img {
@@ -68,6 +68,7 @@ h1, h2 {
     animation: fadeInAnimation ease 3.2s, 1s ease-out 0s 1 slideInFromLeft;
     animation-iteration-count: 1;
     animation-delay: 0ms;
+    padding-top: 20px;
 }
 
 .hero-section .load-2nd {
