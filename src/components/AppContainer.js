@@ -10,7 +10,7 @@ const AppContainer = () => {
           layers={[
             {
               image:
-                "https://images.pexels.com/photos/4171932/pexels-photo-4171932.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+                "https://images.pexels.com/photos/4710556/pexels-photo-4710556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
               amount: 0.3,
             },
           ]}
