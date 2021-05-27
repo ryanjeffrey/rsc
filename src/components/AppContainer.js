@@ -46,7 +46,7 @@ const AppContainer = () => {
           layers={[
             {
               image:
-                "https://images.pexels.com/photos/5091795/pexels-photo-5091795.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+                "https://images.pexels.com/photos/5319953/pexels-photo-5319953.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
               amount: 0.4,
             },
           ]}
@@ -69,7 +69,7 @@ const AppContainer = () => {
           layers={[
             {
               image:
-                "https://images.pexels.com/photos/3137078/pexels-photo-3137078.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+                "https://images.pexels.com/photos/2225771/pexels-photo-2225771.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
               amount: 0.5,
             },
           ]}
@@ -91,8 +91,8 @@ const AppContainer = () => {
           layers={[
             {
               image:
-                "https://images.pexels.com/photos/3694708/pexels-photo-3694708.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
-              amount: 0.3,
+                "https://images.pexels.com/photos/3222412/pexels-photo-3222412.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+              amount: 0.5,
             },
           ]}
           style={{
@@ -101,24 +101,26 @@ const AppContainer = () => {
         >
           <h3>Refined. Specific. Clean.</h3>
           <p>
-            <span>This is our ethos.</span>
-            <br />
-            <br />
-            <span>Refined</span>
-            <br />
-            <em>elegant and cultured in appearance, manner, or taste.</em>
-            <br />
-            <br />
-            <span>Specific</span>
-            <br />
-            <em>
-              precise and clear in making statements or issuing instructions.
-            </em>
-            <br />
-            <br />
-            <span>Clean</span>
-            <br />
-            <em>having a simple, well-defined, and pleasing shape.</em>
+            <span>
+              This is our ethos.
+              <br />
+              <br />
+              Refined
+              <br />
+              <em>elegant and cultured in appearance, manner, or taste.</em>
+              <br />
+              <br />
+              Specific
+              <br />
+              <em>
+                precise and clear in making statements or issuing instructions.
+              </em>
+              <br />
+              <br />
+              Clean
+              <br />
+              <em>having a simple, well-defined, and pleasing shape.</em>
+            </span>
           </p>
         </ParallaxBanner>
       </ParallaxProvider>
