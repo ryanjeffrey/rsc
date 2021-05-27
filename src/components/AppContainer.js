@@ -11,7 +11,7 @@ const AppContainer = () => {
             {
               image:
                 "https://images.pexels.com/photos/4171932/pexels-photo-4171932.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-              amount: 0.5,
+              amount: 0.3,
             },
           ]}
           style={{
@@ -47,7 +47,7 @@ const AppContainer = () => {
             {
               image:
                 "https://images.pexels.com/photos/5091795/pexels-photo-5091795.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-              amount: 0.5,
+              amount: 0.4,
             },
           ]}
           style={{
@@ -92,7 +92,7 @@ const AppContainer = () => {
             {
               image:
                 "https://images.pexels.com/photos/3694708/pexels-photo-3694708.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
-              amount: 0.5,
+              amount: 0.3,
             },
           ]}
           style={{
