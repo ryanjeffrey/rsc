@@ -100,25 +100,23 @@ const AppContainer = () => {
           }}
         >
           <h3>Refined. Specific. Clean.</h3>
-          <p><span>
-            This is our ethos.</span>
+          <p>
+            <span>This is our ethos.</span>
             <br />
-            <br /><span>
-            Refined</span>
+            <br />
+            <span>Refined</span>
             <br />
             <em>elegant and cultured in appearance, manner, or taste.</em>
             <br />
             <br />
-            <span>
-            Specific</span>
+            <span>Specific</span>
             <br />
             <em>
               precise and clear in making statements or issuing instructions.
             </em>
             <br />
             <br />
-            <span>
-            Clean</span>
+            <span>Clean</span>
             <br />
             <em>having a simple, well-defined, and pleasing shape.</em>
           </p>
