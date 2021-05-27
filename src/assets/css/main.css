@@ -13,7 +13,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
-    background-color: #f9fafc;
     letter-spacing: -0.05em;
 }
 
@@ -52,11 +51,17 @@ h1, h2 {
     z-index: 10;
     display: flex;
     flex-direction: column;
-    min-height: 70vh;
-    padding: 60px 20px;
+    min-height: 90vh;
+    padding: 0;
+    margin: 0;
     line-height: 1.2;
     justify-content: center;
     letter-spacing: -0.15em;
+}
+
+.hero-section img {
+    margin: 0;
+    padding-bottom: 45px;
 }
 
 .hero-section .load-1st {
@@ -70,6 +75,7 @@ h1, h2 {
 }
 
 .hero-section .load-3rd {
+    padding-bottom: 100px;
     animation: fadeInAnimation ease 3.2s, 1s ease-out 0s 1 slideInFromLeft;
 }
   
