@@ -27,6 +27,8 @@
     "react-scroll-parallax": "^2.4.0",
     "react-scrollmagic": "^2.3.0",
     "react-spring": "^9.1.2",
+    "react-transition-group": "^4.4.2",
+    "y18n": "^5.0.8",
     "yarn": "^1.22.10"
   },
   "devDependencies": {

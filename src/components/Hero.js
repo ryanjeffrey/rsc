@@ -11,7 +11,7 @@ const Hero = () => {
           src="../assets/images/stack.jpg"
           alt=""
           style={{ zIndex: -1 }}
-          placeholder="blurred"
+          placeholder="tracedSVG"
         />
       </div>
     )
