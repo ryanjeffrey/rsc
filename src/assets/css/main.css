@@ -55,7 +55,11 @@ h1, h2 {
     margin: 0;
     line-height: 1.2;
     justify-content: center;
-    letter-spacing: -0.20em;
+    letter-spacing: -0.15em;
+}
+
+.hero-section h1 {
+    padding-top: 150px;
 }
 
 .hero-section img {
@@ -63,37 +67,29 @@ h1, h2 {
 }
 
 .hero-section .load-1st {
-    animation: fadeInAnimation ease 3.2s, 1s ease-out 0s 1 slideInFromLeft;
-    animation-iteration-count: 1;
-    animation-delay: 0ms;
-    padding-top: 20px;
+    padding: 20px;
+
 }
 
-.hero-section .load-2nd {
-    animation: fadeInAnimation ease 3.2s, 1s ease-out 0s 1 slideInFromLeft;
-}
 
 .hero-section .load-3rd {
     padding-bottom: 100px;
-    animation: fadeInAnimation ease 3.2s, 1s ease-out 0s 1 slideInFromLeft;
-}
-  
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
 }
 
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
+.box{
+    position: relative;
+    padding-top: 200px;
+}
+
+.box-entering {
+    animation-name: fading;
+    animation-duration: 3s;
+}
+
+
+@keyframes fading {
+    0% {left:0px; top:100px;}
+    100% {left:0px; top:0px;}
 }
 
 .container {
