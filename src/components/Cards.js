@@ -1,14 +1,13 @@
 import React from 'react';
-import Wheel from "../assets/images/wheel.png";
-import Code from "../assets/images/code.png";
+import Design from "../assets/images/design.jpg";
+import Dev from "../assets/images/dev.jpg";
 
 const Cards = () => {
     return (
       <div className="cards-container">
-        <h3>What We Love To Do:</h3>
         <div className="card">
-          <img src={Wheel} alt="" />
           <h4>Design</h4>
+          <img src={Design} alt="" />
           <p>
             Whether you have a logo and color palette or you are starting from
             scratch, we love to work with clients to create a color story that
@@ -16,8 +15,8 @@ const Cards = () => {
           </p>
         </div>
         <div className="card">
-          <img src={Code} alt=""/>
           <h4>Develop</h4>
+          <img src={Dev} alt=""/>
           <p>
             Got a web design ready to go, but you just need a developer to make
             your design come to life? <br /> We got you.
