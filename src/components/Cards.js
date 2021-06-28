@@ -15,7 +15,7 @@ const Cards = () => {
           </p>
         </div>
         <div className="card">
-          <h4>Develop</h4>
+          <h5>Development</h5>
           <img src={Dev} alt=""/>
           <p>
             Got a web design ready to go, but you just need a developer to make

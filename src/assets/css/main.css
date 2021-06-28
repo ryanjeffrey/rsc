@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Della+Respira&family=Kumbh+Sans:wght@400;700&family=Syne:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300;1,400&display=swap');
 
 * {
   box-sizing: border-box;
@@ -86,6 +87,37 @@ h1, h2 {
     margin: 0 auto;
 }
 
+.testimonial-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.caya-testimonial {
+    padding: 30px;
+}
+
+.testimonial {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Rubik', sans-serif;
+    text-align: justify;
+    font-size: 12pt;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.testimonial-name {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+span {
+    font-weight: 400;
+}
+
 .logo img {
     width: 100%;
     padding-top: 10px;
@@ -93,10 +125,12 @@ h1, h2 {
 }
 
 .cards-container {
+    position: relative;
     padding-top: 100px;
     width: 100%;
     margin: 0 auto;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .cards-container h3 {
@@ -104,21 +138,42 @@ h1, h2 {
 }
 
 .card img {
+    position: relative;
     width: 100%;
-    border-radius: 80px;
+    border-radius: 60px;
     background-color: white;
-    padding: 50px;
-    z-index: 10;
+    padding: 20px;
+    z-index: 0;
+    display: flex;
 }
 
 .card h4 {
+    position: absolute;
+    top: 8.6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 50px;
     margin: 0;
+    z-index: 10;
+    letter-spacing: -0.05em;
+}
+
+.card h5 {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    margin: 0;
+    z-index: 10;
+    letter-spacing: -0.05em;
+
 }
 
 .card p {
     margin: 0;
     padding: 5px 30px 100px;
+    z-index: 10;
 }
 
 
